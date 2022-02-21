@@ -8,7 +8,7 @@ import (
 	"github.com/jmoiron/sqlx"
 )
 
-// DB
+// Store - store sql handler
 type Store struct {
 	db *sqlx.DB
 }

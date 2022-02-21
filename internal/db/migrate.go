@@ -9,7 +9,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-// Migrate - responsible for runnnig migrations
+// Migrate - run pending db migrations
 func (s *Store) Migrate() error {
 	driver, err := postgres.WithInstance(s.db.DB, &postgres.Config{})
 	if err != nil {
