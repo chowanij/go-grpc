@@ -21,4 +21,5 @@ require (
 	github.com/hashicorp/go-multierror v1.1.0 // indirect
 	github.com/lib/pq v1.10.0 // indirect
 	go.uber.org/atomic v1.6.0 // indirect
+	google.golang.org/protobuf v1.27.1 // indirect
 )
